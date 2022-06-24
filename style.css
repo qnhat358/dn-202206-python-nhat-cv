@@ -7,7 +7,7 @@ body {
     /* some padding */
     text-align: center;
     /* center the text */
-    background: whitesmoke;
+    background: transparent;
     /* green background */
     color: white;
     /* white text color */
@@ -18,13 +18,19 @@ body {
     flex-direction: column;
     width: 1200px;
     margin: 0px auto;
+    background-image: url(1200x1600.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 100%;
     /* padding: 0px 5px; */
     /* align-items: center; */
     /* justify-content: center; */
 }
 
 .header-container {
-    background: whitesmoke;
+    background: transparent;
     display: grid;
     grid-template-columns: 30% 70%;
     flex-direction: row;
@@ -34,7 +40,7 @@ body {
 
 .image {
     /* display: flex; */
-    background: whitesmoke;
+    background: transparent;
     aspect-ratio: 1/1;
     padding-left: 20px;
 
@@ -50,7 +56,7 @@ body {
 }
 
 .information {
-    background: whitesmoke;
+    background: transparent;
     /* flex-grow: 4; */
     flex-direction: column;
     /* max-width: 700px; */
@@ -65,7 +71,7 @@ body {
     display: grid;
     /* flex-direction: row; */
     grid-template-columns: 40% 60%;
-    background: whitesmoke;
+    background: transparent;
     /* max-width: 700px; */
     /* justify-content: space-between; */
 }
@@ -85,7 +91,7 @@ body {
 }
 
 .body-container {
-    background: whitesmoke;
+    background: transparent;
     display: grid;
     grid-template-columns: 45% 55%;
     flex-direction: row;
@@ -93,21 +99,21 @@ body {
 }
 
 .left-body-container {
-    background: whitesmoke;
+    background: transparent;
     display: flex;
     flex-direction: column;
     flex-grow: 2;
 }
 
 .right-body-container {
-    background: whitesmoke;
+    background: transparent;
     display: flex;
     flex-direction: column;
     flex-grow: 3;
 }
 
 .item {
-    background: whitesmoke;
+    background: transparent;
     margin: 10px;
     padding: 0px 20px;
 }
@@ -217,6 +223,7 @@ body {
 
     .flex-container {
         width: 100%;
+        background-image: url(600x900.png);
     }
 
     .info-item div {
@@ -292,18 +299,6 @@ body {
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) and (max-width: 1200px) {
-    .flex-container {
-        width: 100%;
-    }
-
-    .information {
-        width: 100%;
-    }
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 517px) {
     .contact-info-container {
         height: 290px;
